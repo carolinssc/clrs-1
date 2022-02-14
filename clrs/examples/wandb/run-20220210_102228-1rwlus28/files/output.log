@@ -1,0 +1,98 @@
+I0210 10:22:30.972816 140348628289344 run.py:101] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0210 10:22:32.318341 140348628289344 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:22:32.319470 140348628289344 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0)
+I0210 10:22:32.319538 140348628289344 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split train, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:22:32.588583 140348628289344 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:22:32.589253 140348628289344 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0)
+I0210 10:22:32.589310 140348628289344 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split val, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:22:32.788278 140348628289344 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:22:32.789082 140348628289344 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0)
+I0210 10:22:32.789143 140348628289344 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split test, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:22:32.930584 140348628289344 xla_bridge.py:247] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker:
+I0210 10:22:32.934854 140348628289344 xla_bridge.py:247] Unable to initialize backend 'tpu': INVALID_ARGUMENT: TpuPlatform is not available.
+I0210 10:22:33.180565 140348628289344 run.py:170] Restore pretrained model
+I0210 10:22:50.728777 140348628289344 run.py:182] Compiled feedback step in 17.548218 s.
+I0210 10:22:52.003936 140348628289344 run.py:197] (train) step 0: {'step': 0, 'examples_seen': 0, 'pi': 0.099609375, 'score': 0.099609375, 'loss': 11.789875984191895}
+I0210 10:22:52.019974 140348628289344 run.py:205] (val) step 0: {'step': 0, 'examples_seen': 0, 'pi': 0.080078125, 'score': 0.080078125}
+I0210 10:22:52.020366 140348628289344 run.py:216] Saving new checkpoint...
+I0210 10:23:00.488197 140348628289344 run.py:197] (train) step 10: {'step': 10, 'examples_seen': 320, 'pi': 0.240234375, 'score': 0.240234375, 'loss': 2.2432098388671875}
+I0210 10:23:00.493962 140348628289344 run.py:205] (val) step 10: {'step': 10, 'examples_seen': 320, 'pi': 0.201171875, 'score': 0.201171875}
+I0210 10:23:00.494227 140348628289344 run.py:216] Saving new checkpoint...
+I0210 10:23:08.982011 140348628289344 run.py:197] (train) step 20: {'step': 20, 'examples_seen': 640, 'pi': 0.15625, 'score': 0.15625, 'loss': 1.1723847389221191}
+I0210 10:23:08.990175 140348628289344 run.py:205] (val) step 20: {'step': 20, 'examples_seen': 640, 'pi': 0.1796875, 'score': 0.1796875}
+I0210 10:23:17.475135 140348628289344 run.py:197] (train) step 30: {'step': 30, 'examples_seen': 960, 'pi': 0.255859375, 'score': 0.255859375, 'loss': 0.7483618855476379}
+I0210 10:23:17.480971 140348628289344 run.py:205] (val) step 30: {'step': 30, 'examples_seen': 960, 'pi': 0.265625, 'score': 0.265625}
+I0210 10:23:17.481236 140348628289344 run.py:216] Saving new checkpoint...
+I0210 10:23:25.984622 140348628289344 run.py:197] (train) step 40: {'step': 40, 'examples_seen': 1280, 'pi': 0.44140625, 'score': 0.44140625, 'loss': 0.6358891725540161}
+I0210 10:23:25.990478 140348628289344 run.py:205] (val) step 40: {'step': 40, 'examples_seen': 1280, 'pi': 0.4453125, 'score': 0.4453125}
+I0210 10:23:25.990748 140348628289344 run.py:216] Saving new checkpoint...
+I0210 10:23:34.449521 140348628289344 run.py:197] (train) step 50: {'step': 50, 'examples_seen': 1600, 'pi': 0.396484375, 'score': 0.396484375, 'loss': 0.5169685482978821}
+I0210 10:23:34.455435 140348628289344 run.py:205] (val) step 50: {'step': 50, 'examples_seen': 1600, 'pi': 0.41796875, 'score': 0.41796875}
+I0210 10:23:43.003584 140348628289344 run.py:197] (train) step 60: {'step': 60, 'examples_seen': 1920, 'pi': 0.447265625, 'score': 0.447265625, 'loss': 0.49179014563560486}
+I0210 10:23:43.009332 140348628289344 run.py:205] (val) step 60: {'step': 60, 'examples_seen': 1920, 'pi': 0.4453125, 'score': 0.4453125}
+Traceback (most recent call last):
+  File "run.py", line 233, in <module>
+    app.run(main)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run.py", line 179, in main
+    cur_loss = model.feedback(rng_key, feedback)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/baselines.py", line 501, in feedback
+    self.params, self.opt_state, cur_loss = self.update(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/baselines.py", line 561, in update
+    lss, grads = jax.value_and_grad(loss)(params, rng_key, feedback)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/traceback_util.py", line 165, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/api.py", line 1070, in value_and_grad_f
+    ans, vjp_py = _vjp(f_partial, *dyn_args, reduce_axes=reduce_axes)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/api.py", line 2522, in _vjp
+    out_primal, out_vjp = ad.vjp(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/ad.py", line 116, in vjp
+    out_primals, pvals, jaxpr, consts = linearize(traceable, *primals)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/ad.py", line 103, in linearize
+    jaxpr, out_pvals, consts = pe.trace_to_jaxpr(jvpfun_flat, in_pvals)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/profiler.py", line 206, in wrapper
+    return func(*args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/partial_eval.py", line 522, in trace_to_jaxpr
+    jaxpr, (out_pvals, consts, env) = fun.call_wrapped(pvals)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/linear_util.py", line 166, in call_wrapped
+    ans = self.f(*args, **dict(self.params, **kwargs))
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/baselines.py", line 549, in loss
+    total_loss += losses.hint_loss(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/losses.py", line 108, in hint_loss
+    loss = _hint_loss(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/losses.py", line 160, in _hint_loss
+    total_loss = jnp.mean(-jnp.sum(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/numpy/lax_numpy.py", line 2557, in sum
+    return _reduce_sum(a, axis=_ensure_optional_axes(axis), dtype=dtype, out=out,
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/traceback_util.py", line 165, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/api.py", line 430, in cache_miss
+    out_flat = xla.xla_call(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1681, in bind
+    return call_bind(self, fun, *args, **params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1693, in call_bind
+    outs = top_trace.process_call(primitive, fun, tracers, params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/ad.py", line 324, in process_call
+    result = call_primitive.bind(f_jvp, *primals, *nonzero_tangents, **new_params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1681, in bind
+    return call_bind(self, fun, *args, **params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1693, in call_bind
+    outs = top_trace.process_call(primitive, fun, tracers, params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/partial_eval.py", line 206, in process_call
+    jaxpr, out_pvals, consts, env_tracers = self.partial_eval(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/interpreters/partial_eval.py", line 319, in partial_eval
+    out_flat, (out_avals, jaxpr, env) = app(f, *in_consts), aux()
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1681, in bind
+    return call_bind(self, fun, *args, **params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 1693, in call_bind
+    outs = top_trace.process_call(primitive, fun, tracers, params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/core.py", line 594, in process_call
+    return primitive.impl(f, *tracers, **params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/dispatch.py", line 145, in _xla_call_impl
+    out = compiled_fun(*args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/jax-0.2.28-py3.8.egg/jax/_src/dispatch.py", line 444, in _execute_compiled
+    out_bufs = compiled.execute(input_bufs)
+KeyboardInterrupt

@@ -1,0 +1,195 @@
+wandb_version: 1
+
+'?':
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: train_loss
+      6:
+      - 3
+      7:
+      - 1
+    - 1: train_score
+      6:
+      - 3
+      7:
+      - 2
+    - 1: val_score
+      6:
+      - 3
+      7:
+      - 2
+    python_version: 3.8.10
+    start_time: 1644484949
+    t:
+      1:
+      - 2
+      - 3
+      - 12
+      2:
+      - 2
+      - 3
+      - 12
+      3:
+      - 7
+      4: 3.8.10
+      5: 0.12.10
+      8:
+      - 5
+algorithm:
+  desc: null
+  value: dijkstra
+alsologtostderr:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 32
+checkpoint_path:
+  desc: null
+  value: /home/csasc/clrs/Data/Checkpoints
+chex_assert_multiple_cpu_devices:
+  desc: null
+  value: false
+chex_n_cpu_devices:
+  desc: null
+  value: 1
+chex_skip_pmap_variant_if_single_device:
+  desc: null
+  value: true
+dataset_path:
+  desc: null
+  value: /home/csasc/clrs/Data/data
+decode_diffs:
+  desc: null
+  value: true
+decode_hints:
+  desc: null
+  value: true
+dropout_prob:
+  desc: null
+  value: 0.0
+encode_hints:
+  desc: null
+  value: true
+freeze_processor:
+  desc: null
+  value: true
+hbm_oom_exit:
+  desc: null
+  value: true
+help:
+  desc: null
+  value: false
+helpfull:
+  desc: null
+  value: false
+helpshort:
+  desc: null
+  value: false
+helpxml:
+  desc: null
+  value: false
+hidden_size:
+  desc: null
+  value: 128
+learning_rate:
+  desc: null
+  value: 0.0005
+load_pretrained:
+  desc: null
+  value: true
+log_dir:
+  desc: null
+  value: ''
+log_every:
+  desc: null
+  value: 10
+logger_levels:
+  desc: null
+  value: {}
+logtostderr:
+  desc: null
+  value: false
+only_check_args:
+  desc: null
+  value: false
+op_conversion_fallback_to_while_loop:
+  desc: null
+  value: true
+pdb:
+  desc: null
+  value: false
+pdb_post_mortem:
+  desc: null
+  value: false
+processor_type:
+  desc: null
+  value: mpnn
+profile_file:
+  desc: null
+  value: null
+run_with_pdb:
+  desc: null
+  value: false
+run_with_profiling:
+  desc: null
+  value: false
+runtime_oom_exit:
+  desc: null
+  value: true
+seed:
+  desc: null
+  value: 42
+showprefixforinfo:
+  desc: null
+  value: true
+sigma:
+  desc: null
+  value: 0.05
+stderrthreshold:
+  desc: null
+  value: fatal
+test_random_seed:
+  desc: null
+  value: 301
+test_randomize_ordering_seed:
+  desc: null
+  value: ''
+test_srcdir:
+  desc: null
+  value: ''
+test_tmpdir:
+  desc: null
+  value: /tmp/absl_testing
+train_steps:
+  desc: null
+  value: 2000
+use_cprofile_for_profiling:
+  desc: null
+  value: true
+use_lstm:
+  desc: null
+  value: false
+v:
+  desc: null
+  value: 0
+verbose_logging:
+  desc: null
+  value: false
+verbosity:
+  desc: null
+  value: 0
+wikipedia_auto_select_flume_mode:
+  desc: null
+  value: true
+xml_output_file:
+  desc: null
+  value: ''

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "run.py", line 78, in <module>
+    if FLAGS.sigma !=0: FlAGS.dataset_path +f'_{FLAGS.sigma}'
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/flags/_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --sigma before flags were parsed.

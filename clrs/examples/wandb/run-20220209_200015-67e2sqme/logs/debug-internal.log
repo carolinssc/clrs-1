@@ -1,0 +1,50 @@
+2022-02-09 20:00:15,869 INFO    MainThread:829969 [internal.py:wandb_internal():89] W&B internal server running at pid: 829969, started at: 2022-02-09 20:00:15.869204
+2022-02-09 20:00:15,871 DEBUG   HandlerThread:829969 [handler.py:handle_request():131] handle_request: check_version
+2022-02-09 20:00:15,871 INFO    WriterThread:829969 [datastore.py:open_for_write():77] open: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/run-67e2sqme.wandb
+2022-02-09 20:00:15,873 DEBUG   SenderThread:829969 [sender.py:send():235] send: header
+2022-02-09 20:00:15,873 DEBUG   SenderThread:829969 [sender.py:send_request():249] send_request: check_version
+2022-02-09 20:00:15,939 DEBUG   SenderThread:829969 [sender.py:send():235] send: run
+2022-02-09 20:00:16,146 INFO    SenderThread:829969 [dir_watcher.py:__init__():169] watching files in: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files
+2022-02-09 20:00:16,146 INFO    SenderThread:829969 [sender.py:_start_run_threads():809] run started: 67e2sqme with start time 1644433215
+2022-02-09 20:00:16,146 DEBUG   SenderThread:829969 [sender.py:send():235] send: summary
+2022-02-09 20:00:16,147 INFO    SenderThread:829969 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-09 20:00:16,148 DEBUG   HandlerThread:829969 [handler.py:handle_request():131] handle_request: run_start
+2022-02-09 20:00:17,147 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/wandb-summary.json
+2022-02-09 20:00:17,387 DEBUG   HandlerThread:829969 [meta.py:__init__():36] meta init
+2022-02-09 20:00:17,387 DEBUG   HandlerThread:829969 [meta.py:__init__():50] meta init done
+2022-02-09 20:00:17,387 DEBUG   HandlerThread:829969 [meta.py:probe():210] probe
+2022-02-09 20:00:17,393 DEBUG   HandlerThread:829969 [meta.py:_setup_git():200] setup git
+2022-02-09 20:00:17,416 DEBUG   HandlerThread:829969 [meta.py:_setup_git():207] setup git done
+2022-02-09 20:00:17,416 DEBUG   HandlerThread:829969 [meta.py:_save_pip():54] save pip
+2022-02-09 20:00:17,416 DEBUG   HandlerThread:829969 [meta.py:_save_pip():68] save pip done
+2022-02-09 20:00:17,416 DEBUG   HandlerThread:829969 [meta.py:probe():248] probe done
+2022-02-09 20:00:17,419 DEBUG   SenderThread:829969 [sender.py:send():235] send: files
+2022-02-09 20:00:17,419 INFO    SenderThread:829969 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-09 20:00:17,424 DEBUG   HandlerThread:829969 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-09 20:00:17,425 DEBUG   SenderThread:829969 [sender.py:send_request():249] send_request: stop_status
+2022-02-09 20:00:18,013 INFO    Thread-11 :829969 [upload_job.py:push():137] Uploaded file /tmp/tmp7_95v7vpwandb/1zpz8oy0-wandb-metadata.json
+2022-02-09 20:00:18,147 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/requirements.txt
+2022-02-09 20:00:18,148 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/wandb-metadata.json
+2022-02-09 20:00:18,148 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/output.log
+2022-02-09 20:00:20,049 DEBUG   SenderThread:829969 [sender.py:send():235] send: config
+2022-02-09 20:00:20,148 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/output.log
+2022-02-09 20:00:22,149 INFO    Thread-8  :829969 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/output.log
+2022-02-09 20:00:24,879 WARNING MainThread:829969 [internal.py:is_dead():380] Internal process exiting, parent pid 829810 disappeared
+2022-02-09 20:00:24,879 ERROR   MainThread:829969 [internal.py:wandb_internal():148] Internal process shutdown.
+2022-02-09 20:00:25,433 INFO    SenderThread:829969 [sender.py:finish():1075] shutting down sender
+2022-02-09 20:00:25,433 INFO    WriterThread:829969 [datastore.py:close():281] close: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/run-67e2sqme.wandb
+2022-02-09 20:00:25,433 INFO    SenderThread:829969 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-09 20:00:25,436 INFO    HandlerThread:829969 [handler.py:finish():739] shutting down handler
+2022-02-09 20:00:26,150 INFO    SenderThread:829969 [dir_watcher.py:finish():313] scan: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files
+2022-02-09 20:00:26,150 INFO    SenderThread:829969 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/wandb-metadata.json wandb-metadata.json
+2022-02-09 20:00:26,150 INFO    SenderThread:829969 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/output.log output.log
+2022-02-09 20:00:26,150 INFO    SenderThread:829969 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/wandb-summary.json wandb-summary.json
+2022-02-09 20:00:26,150 INFO    SenderThread:829969 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/config.yaml config.yaml
+2022-02-09 20:00:26,151 INFO    SenderThread:829969 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/requirements.txt requirements.txt
+2022-02-09 20:00:26,154 INFO    SenderThread:829969 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-09 20:00:26,157 INFO    SenderThread:829969 [file_pusher.py:join():182] waiting for file pusher
+2022-02-09 20:00:26,716 INFO    Thread-12 :829969 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/output.log
+2022-02-09 20:00:26,719 INFO    Thread-13 :829969 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/wandb-summary.json
+2022-02-09 20:00:26,720 INFO    Thread-14 :829969 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/config.yaml
+2022-02-09 20:00:26,746 INFO    Thread-15 :829969 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220209_200015-67e2sqme/files/requirements.txt
+2022-02-09 20:00:27,324 INFO    MainThread:829969 [internal.py:handle_exit():79] Internal process exited

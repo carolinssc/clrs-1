@@ -1,0 +1,29 @@
+I0210 10:18:09.298792 140644067505984 run.py:101] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0210 10:18:10.655083 140644067505984 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:18:10.656489 140644067505984 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0)
+I0210 10:18:10.656600 140644067505984 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split train, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:18:10.922724 140644067505984 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:18:10.923360 140644067505984 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0)
+I0210 10:18:10.923461 140644067505984 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split val, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:18:11.116346 140644067505984 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:18:11.117136 140644067505984 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0)
+I0210 10:18:11.117194 140644067505984 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split test, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:18:11.260974 140644067505984 xla_bridge.py:247] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker:
+I0210 10:18:11.266309 140644067505984 xla_bridge.py:247] Unable to initialize backend 'tpu': INVALID_ARGUMENT: TpuPlatform is not available.
+I0210 10:18:11.501574 140644067505984 run.py:169] Restore pretrained model
+Traceback (most recent call last):
+  File "run.py", line 231, in <module>
+    app.run(main)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run.py", line 170, in main
+    model.restore_model('/home/csasc/clrs/Data/Checkpoints/final_mpnn2.pkl', only_load_processor=True)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/baselines.py", line 616, in restore_model
+    self.params = hk.data_structures.merge(self.params, restored_params)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_haiku-0.0.5-py3.8.egg/haiku/_src/filtering.py", line 213, in merge
+    for module_name, name, value in traverse(structure):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_haiku-0.0.5-py3.8.egg/haiku/_src/filtering.py", line 41, in traverse
+    for module_name in sorted(structure):
+TypeError: 'NoneType' object is not iterable

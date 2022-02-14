@@ -1,0 +1,1495 @@
+2022-02-10 10:26:27,944 INFO    MainThread:930059 [internal.py:wandb_internal():89] W&B internal server running at pid: 930059, started at: 2022-02-10 10:26:27.944047
+2022-02-10 10:26:27,946 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: check_version
+2022-02-10 10:26:27,946 INFO    WriterThread:930059 [datastore.py:open_for_write():77] open: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/run-vsk7boik.wandb
+2022-02-10 10:26:27,947 DEBUG   SenderThread:930059 [sender.py:send():235] send: header
+2022-02-10 10:26:27,948 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: check_version
+2022-02-10 10:26:28,015 DEBUG   SenderThread:930059 [sender.py:send():235] send: run
+2022-02-10 10:26:28,234 INFO    SenderThread:930059 [dir_watcher.py:__init__():169] watching files in: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files
+2022-02-10 10:26:28,234 INFO    SenderThread:930059 [sender.py:_start_run_threads():809] run started: vsk7boik with start time 1644485187
+2022-02-10 10:26:28,234 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:26:28,234 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: run_start
+2022-02-10 10:26:28,235 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:26:29,235 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:26:29,416 DEBUG   HandlerThread:930059 [meta.py:__init__():36] meta init
+2022-02-10 10:26:29,416 DEBUG   HandlerThread:930059 [meta.py:__init__():50] meta init done
+2022-02-10 10:26:29,416 DEBUG   HandlerThread:930059 [meta.py:probe():210] probe
+2022-02-10 10:26:29,422 DEBUG   HandlerThread:930059 [meta.py:_setup_git():200] setup git
+2022-02-10 10:26:29,449 DEBUG   HandlerThread:930059 [meta.py:_setup_git():207] setup git done
+2022-02-10 10:26:29,449 DEBUG   HandlerThread:930059 [meta.py:_save_pip():54] save pip
+2022-02-10 10:26:29,449 DEBUG   HandlerThread:930059 [meta.py:_save_pip():68] save pip done
+2022-02-10 10:26:29,450 DEBUG   HandlerThread:930059 [meta.py:probe():248] probe done
+2022-02-10 10:26:29,453 DEBUG   SenderThread:930059 [sender.py:send():235] send: files
+2022-02-10 10:26:29,453 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-10 10:26:29,550 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:26:29,551 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:26:29,732 DEBUG   SenderThread:930059 [sender.py:send():235] send: metric
+2022-02-10 10:26:29,732 DEBUG   SenderThread:930059 [sender.py:send():235] send: metric
+2022-02-10 10:26:29,732 DEBUG   SenderThread:930059 [sender.py:send():235] send: metric
+2022-02-10 10:26:30,124 INFO    Thread-11 :930059 [upload_job.py:push():137] Uploaded file /tmp/tmpc2mcjl4ywandb/16kh6s2k-wandb-metadata.json
+2022-02-10 10:26:30,235 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:26:30,235 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-metadata.json
+2022-02-10 10:26:30,235 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_created():217] file/dir created: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/requirements.txt
+2022-02-10 10:26:31,538 DEBUG   SenderThread:930059 [sender.py:send():235] send: config
+2022-02-10 10:26:32,236 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:26:34,236 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:26:45,104 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:26:45,104 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:26:50,579 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:26:50,580 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:26:50,581 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:26:51,242 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:26:52,242 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:26:57,815 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:26:59,024 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:26:59,025 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:26:59,025 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:26:59,244 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/config.yaml
+2022-02-10 10:26:59,244 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:00,244 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:00,285 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:27:00,286 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:27:07,391 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:07,391 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:07,393 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:08,246 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:08,247 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:15,462 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:27:15,462 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:27:15,733 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:15,733 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:15,735 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:16,248 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:18,249 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:24,186 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:24,186 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:24,188 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:24,251 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:26,251 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:28,178 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:27:30,673 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:27:30,673 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:27:32,317 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:32,317 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:32,317 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:33,253 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:34,253 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:40,700 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:40,701 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:40,702 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:41,255 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:42,255 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:45,850 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:27:45,850 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:27:49,083 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:49,083 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:49,084 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:49,257 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:50,257 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:27:57,714 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:27:57,714 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:27:57,716 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:27:58,259 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:27:58,575 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:28:00,259 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:01,028 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:28:01,028 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:28:06,416 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:06,416 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:06,417 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:07,261 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:08,261 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:15,007 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:15,007 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:15,008 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:15,263 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:16,205 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:28:16,205 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:28:16,263 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:23,581 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:23,581 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:23,583 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:24,265 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:26,266 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:28,965 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:28:31,382 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:28:31,382 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:28:31,991 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:31,992 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:31,992 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:32,267 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:34,268 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:40,593 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:40,594 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:40,594 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:41,269 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:42,270 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:46,611 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:28:46,611 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:28:49,221 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:49,222 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:49,223 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:49,271 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:50,271 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:57,836 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:28:57,836 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:28:57,836 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:28:58,274 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:28:58,274 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:28:59,341 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:29:01,828 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:29:01,828 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:29:06,398 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:06,398 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:06,399 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:07,276 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:08,277 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:14,952 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:14,952 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:14,954 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:15,280 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:16,280 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:17,018 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:29:17,018 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:29:23,267 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:23,267 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:23,268 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:23,282 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:24,282 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:29,745 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:29:31,906 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:31,907 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:31,907 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:32,207 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:29:32,207 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:29:32,285 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:34,286 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:40,412 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:40,412 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:40,414 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:41,288 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:42,288 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:47,397 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:29:47,397 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:29:48,899 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:48,900 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:48,900 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:49,290 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:29:50,290 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:57,406 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:29:57,406 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:29:57,408 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:29:58,292 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:29:58,293 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:00,160 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:30:02,575 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:30:02,576 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:30:05,963 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:05,963 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:05,963 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:06,295 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:08,295 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:14,367 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:14,367 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:14,367 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:15,297 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:16,298 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:17,789 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:30:17,789 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:30:22,942 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:22,942 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:22,944 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:23,300 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:24,301 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:30,515 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:30:31,424 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:31,424 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:31,424 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:32,303 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:32,303 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:32,981 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:30:32,982 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:30:39,870 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:39,871 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:39,872 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:40,305 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:40,305 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:48,186 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:30:48,186 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:30:48,370 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:48,370 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:48,370 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:49,307 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:50,307 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:30:56,789 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:30:56,790 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:30:56,790 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:30:57,309 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:30:58,309 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:00,886 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:31:03,371 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:31:03,372 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:31:05,240 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:05,240 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:05,241 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:05,311 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:06,311 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:13,753 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:13,753 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:13,755 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:14,314 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:14,314 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:18,556 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:31:18,556 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:31:22,185 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:22,185 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:22,185 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:22,316 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:24,317 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:30,704 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:30,704 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:30,705 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:31,262 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:31:31,320 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:32,320 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:33,866 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:31:33,866 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:31:39,035 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:39,036 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:39,036 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:39,323 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:40,323 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:47,550 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:47,551 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:47,551 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:48,325 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:31:48,326 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:49,178 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:31:49,178 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:31:56,064 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:31:56,064 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:31:56,066 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:31:56,328 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:31:58,329 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:01,629 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:32:04,353 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:32:04,353 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:32:04,602 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:04,602 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:04,602 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:05,331 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:06,331 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:13,119 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:13,119 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:13,119 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:13,333 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:14,334 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:19,529 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:32:19,529 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:32:21,522 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:21,523 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:21,523 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:22,336 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:22,337 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:30,083 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:30,083 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:30,085 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:30,339 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:32,001 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:32:32,340 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:34,709 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:32:34,710 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:32:38,634 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:38,634 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:38,635 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:39,342 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:40,342 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:47,178 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:47,179 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:47,179 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:47,344 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:48,345 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:32:49,889 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:32:49,889 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:32:55,613 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:32:55,613 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:32:55,614 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:32:56,347 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:32:57,347 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:02,382 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:33:04,217 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:04,217 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:04,218 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:04,350 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:05,065 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:33:05,066 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:33:07,351 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:12,742 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:12,742 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:12,742 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:13,353 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:15,354 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:20,263 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:33:20,263 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:33:21,140 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:21,141 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:21,141 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:21,356 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:23,357 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:29,692 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:29,693 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:29,693 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:30,359 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:31,360 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:32,772 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:33:35,439 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:33:35,439 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:33:38,006 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:38,006 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:38,007 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:38,362 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:39,362 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:46,135 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:46,135 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:46,136 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:46,363 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:49,364 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:33:50,617 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:33:50,617 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:33:54,368 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:33:54,368 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:33:54,369 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:33:55,366 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:33:57,366 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:02,454 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:02,454 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:02,455 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:03,144 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:34:03,368 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:05,368 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:05,827 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:34:05,828 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:34:10,635 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:10,635 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:10,636 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:11,370 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:13,370 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:19,003 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:19,003 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:19,003 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:19,372 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:21,004 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:34:21,004 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:34:21,373 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:27,548 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:27,548 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:27,548 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:28,375 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:29,375 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:33,531 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:34:36,009 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:36,009 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:36,010 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:36,197 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:34:36,197 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:34:36,378 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:37,378 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:44,566 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:44,566 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:44,566 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:45,381 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:47,381 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:34:51,379 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:34:51,380 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:34:53,127 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:34:53,128 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:34:53,128 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:34:53,383 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:34:55,384 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:01,700 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:01,700 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:01,701 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:02,386 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:03,386 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:03,910 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:35:06,557 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:35:06,557 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:35:10,071 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:10,071 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:10,071 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:10,388 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:11,388 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:18,597 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:18,597 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:18,598 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:19,391 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:21,392 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:21,757 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:35:21,757 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:35:27,189 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:27,190 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:27,190 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:27,394 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:29,395 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:34,289 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:35:35,785 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:35,785 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:35,786 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:36,396 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:36,939 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:35:36,940 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:35:37,396 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:44,316 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:44,317 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:44,317 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:44,398 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:45,398 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:35:52,198 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:35:52,199 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:35:52,773 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:35:52,773 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:35:52,774 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:35:53,401 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:35:55,401 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:01,366 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:01,367 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:01,367 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:01,403 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:03,404 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:04,678 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:36:07,383 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:36:07,384 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:36:09,924 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:09,924 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:09,924 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:10,405 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:11,406 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:18,464 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:18,464 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:18,465 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:19,408 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:19,408 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:22,572 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:36:22,572 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:36:26,860 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:26,860 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:26,861 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:27,410 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:29,410 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:35,078 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:36:35,421 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:35,421 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:35,421 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:36,412 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:37,413 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:37,763 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:36:37,763 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:36:43,940 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:43,940 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:43,941 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:44,415 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:36:45,415 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:52,445 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:36:52,445 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:36:52,445 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:36:52,964 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:36:52,964 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:36:53,417 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:36:53,417 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:00,839 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:00,839 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:00,839 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:01,420 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:03,420 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:05,464 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:37:08,145 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:37:08,145 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:37:09,349 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:09,350 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:09,350 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:09,422 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:11,423 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:17,891 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:17,891 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:17,892 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:18,424 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:19,424 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:23,441 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:37:23,441 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:37:26,255 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:26,256 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:26,256 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:26,426 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:27,426 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:34,763 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:34,764 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:34,764 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:35,429 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:35,846 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:37:37,429 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:38,635 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:37:38,635 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:37:43,252 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:43,253 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:43,253 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:43,431 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:45,431 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:51,752 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:37:51,753 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:37:51,753 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:37:52,433 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:37:53,433 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:37:53,818 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:37:53,818 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:38:00,134 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:00,134 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:00,135 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:00,435 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:01,435 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:06,240 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:38:08,719 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:08,720 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:08,720 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:09,032 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:38:09,032 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:38:09,437 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:09,438 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:17,266 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:17,266 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:17,266 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:17,439 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:19,440 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:24,270 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:38:24,271 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:38:25,851 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:25,851 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:25,851 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:26,442 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:27,442 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:34,231 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:34,232 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:34,232 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:34,443 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:35,444 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:36,619 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:38:39,447 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:38:39,447 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:38:42,714 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:42,715 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:42,715 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:43,445 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:43,445 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:51,199 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:51,199 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:51,200 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:38:51,447 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:38:53,447 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:38:54,634 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:38:54,634 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:38:59,539 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:38:59,539 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:38:59,539 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:00,449 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:01,449 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:06,983 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:39:08,022 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:08,023 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:08,023 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:08,450 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:09,451 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:09,809 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:39:09,809 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:39:16,560 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:16,560 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:16,561 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:17,452 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:17,452 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:24,942 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:24,942 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:24,942 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:24,990 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:39:24,990 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:39:25,454 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:27,455 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:33,251 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:33,251 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:33,252 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:33,456 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:35,456 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:37,366 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:39:40,224 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:39:40,224 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:39:41,658 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:41,659 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:41,659 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:42,458 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:43,458 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:50,194 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:50,194 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:50,195 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:50,460 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:39:51,461 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:55,550 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:39:55,551 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:39:58,756 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:39:58,756 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:39:58,757 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:39:59,463 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:39:59,464 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:07,347 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:07,347 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:07,348 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:07,466 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:07,744 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:40:09,467 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:10,740 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:40:10,740 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:40:15,871 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:15,872 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:15,872 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:16,469 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:17,469 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:24,316 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:24,316 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:24,316 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:24,471 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:25,472 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:25,926 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:40:25,926 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:40:32,681 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:32,681 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:32,682 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:33,474 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:33,474 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:38,120 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:40:41,122 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:40:41,123 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:40:41,300 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:41,300 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:41,301 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:41,477 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:41,477 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:49,634 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:49,634 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:49,635 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:50,480 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:51,481 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:40:56,302 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:40:56,302 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:40:58,100 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:40:58,100 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:40:58,101 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:40:58,483 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:40:59,483 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:06,441 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:06,441 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:06,441 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:06,486 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:07,486 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:08,501 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:41:11,490 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:41:11,491 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:41:14,946 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:14,946 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:14,946 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:15,489 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:15,489 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:23,491 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:23,491 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:23,492 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:23,492 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:25,493 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:26,669 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:41:26,670 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:41:31,938 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:31,938 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:31,939 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:32,496 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:33,496 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:38,891 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:41:40,452 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:40,452 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:40,452 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:40,497 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:41,498 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:41,899 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:41:41,899 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:41:48,936 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:48,936 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:48,936 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:49,500 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:51,500 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:41:57,102 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:41:57,103 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:41:57,299 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:41:57,299 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:41:57,299 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:41:57,502 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:41:59,503 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:05,804 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:05,805 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:05,805 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:06,505 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:07,505 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:09,264 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:42:12,302 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:42:12,302 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:42:14,412 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:14,412 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:14,413 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:14,507 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:15,507 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:23,012 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:23,013 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:23,013 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:23,510 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:23,510 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:27,505 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:42:27,505 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:42:31,403 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:31,403 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:31,403 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:31,512 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:33,512 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:39,639 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:42:39,863 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:39,863 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:39,863 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:40,515 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:41,515 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:42,707 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:42:42,707 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:42:48,289 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:48,290 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:48,290 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:48,517 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:49,517 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:56,702 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:42:56,702 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:42:56,703 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:42:57,520 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:42:57,520 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:42:57,885 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:42:57,885 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:43:05,210 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:05,210 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:05,211 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:05,523 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:05,523 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:10,018 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:43:13,069 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:43:13,069 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:43:13,794 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:13,794 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:13,795 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:14,525 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:15,525 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:22,302 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:22,302 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:22,303 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:22,527 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:23,527 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:28,248 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:43:28,248 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:43:30,646 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:30,647 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:30,647 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:31,530 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:31,530 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:39,219 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:39,219 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:39,219 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:39,532 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:40,411 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:43:41,533 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:43,424 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:43:43,424 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:43:47,724 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:47,724 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:47,725 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:48,535 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:49,535 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:56,030 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:43:56,030 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:43:56,031 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:43:56,537 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:43:57,537 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:43:58,601 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:43:58,602 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:44:04,485 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:04,486 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:04,486 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:04,539 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:05,539 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:10,798 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:44:12,965 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:12,966 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:12,966 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:13,541 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:13,777 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:44:13,777 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:44:14,541 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:21,299 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:21,300 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:21,300 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:21,543 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:24,543 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:28,964 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:44:28,964 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:44:29,679 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:29,679 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:29,680 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:30,545 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:32,545 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:38,041 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:38,042 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:38,042 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:38,547 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:40,547 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:41,184 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:44:44,242 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:44:44,242 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:44:46,334 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:46,335 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:46,335 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:46,549 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:48,550 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:54,805 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:44:54,805 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:44:54,806 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:44:55,551 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:44:56,551 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:44:59,426 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:44:59,427 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:45:03,389 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:03,389 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:03,390 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:03,553 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:04,553 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:11,585 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:45:11,679 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:11,680 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:11,680 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:12,554 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:14,555 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:14,681 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:45:14,681 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:45:20,149 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:20,149 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:20,149 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:20,556 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:22,556 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:28,590 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:28,590 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:28,590 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:29,558 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:29,883 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:45:29,884 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:45:30,558 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:36,850 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:36,851 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:36,851 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:37,560 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:38,560 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:41,973 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:45:45,066 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:45:45,067 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:45:45,261 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:45,261 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:45,262 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:45,561 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:46,561 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:45:53,774 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:45:53,775 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:45:53,775 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:45:54,563 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:45:56,564 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:00,251 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:46:00,251 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:46:02,078 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:02,078 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:02,079 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:02,565 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:04,565 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:10,481 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:10,481 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:10,482 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:10,567 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:12,353 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:46:12,567 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:16,257 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:46:16,257 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:46:18,915 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:18,916 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:18,916 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:19,569 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:20,569 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:27,371 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:27,371 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:27,371 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:27,570 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:28,570 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:31,432 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:46:31,432 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:46:35,727 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:35,727 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:35,727 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:36,572 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:38,573 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:42,730 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:46:44,220 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:44,220 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:44,220 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:44,574 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:46,575 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:46:46,616 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:46:46,616 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:46:52,737 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:46:52,737 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:46:52,737 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:46:53,576 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:46:54,576 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:01,117 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:01,117 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:01,117 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:01,578 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:01,826 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:47:01,826 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:47:02,578 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:09,632 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:09,632 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:09,632 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:10,580 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:12,581 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:13,105 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:47:17,017 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:47:17,017 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:47:18,148 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:18,148 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:18,148 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:18,582 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:20,583 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:26,504 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:26,504 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:26,504 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:26,584 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:28,585 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:32,198 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:47:32,198 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:47:35,109 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:35,109 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:35,109 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:35,586 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:36,586 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:43,501 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:47:43,706 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:43,706 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:43,707 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:44,588 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:47:44,588 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:47,376 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:47:47,376 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:47:52,140 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:47:52,140 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:47:52,141 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:47:52,591 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:47:54,591 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:00,740 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:00,740 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:00,740 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:01,593 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:02,554 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:48:02,554 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:48:02,594 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:09,349 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:09,350 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:09,350 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:09,595 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:10,596 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:13,918 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:48:17,654 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:17,655 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:17,655 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:17,735 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:48:17,736 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:48:18,597 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:18,598 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:26,158 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:26,158 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:26,158 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:26,599 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:28,600 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:32,921 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:48:32,921 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:48:34,669 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:34,669 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:34,670 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:35,602 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:36,602 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:43,014 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:43,014 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:43,014 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:43,603 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:44,298 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:48:44,604 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:48,183 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:48:48,184 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:48:51,450 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:51,450 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:51,451 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:48:51,606 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:48:52,606 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:48:59,747 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:48:59,747 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:48:59,747 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:00,608 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:00,608 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:03,391 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:49:03,391 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:49:08,191 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:08,191 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:08,192 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:08,610 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:10,610 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:14,669 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:49:16,696 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:16,696 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:16,696 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:17,612 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:18,572 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:49:18,572 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:49:18,613 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:25,201 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:25,201 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:25,202 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:25,614 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:26,615 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:33,523 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:33,523 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:33,523 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:33,616 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:33,819 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:49:33,819 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:49:34,616 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:42,042 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:42,042 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:42,042 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:42,619 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:42,619 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:45,057 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:49:48,999 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:49:48,999 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:49:50,534 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:50,535 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:50,535 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:50,621 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:49:52,622 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:49:59,116 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:49:59,116 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:49:59,116 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:49:59,624 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:00,624 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:04,176 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:50:04,176 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:50:07,725 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:07,725 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:07,726 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:08,626 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:08,626 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:15,445 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:50:16,310 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:16,310 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:16,311 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:16,628 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:16,628 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:19,357 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:50:19,357 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:50:24,738 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:24,738 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:24,739 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:25,630 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:26,630 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:33,324 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:33,324 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:33,325 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:33,632 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:34,534 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:50:34,534 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:50:35,632 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:41,848 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:41,848 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:41,849 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:42,635 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:43,636 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:45,839 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:50:49,835 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:50:49,836 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:50:50,374 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:50,374 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:50,375 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:50,638 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:50:53,639 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:50:58,932 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:50:58,932 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:50:58,933 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:50:59,641 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:01,642 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:05,015 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:51:05,015 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:51:07,497 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:07,497 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:07,497 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:07,644 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:09,645 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:15,843 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:15,843 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:15,845 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:16,227 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:51:16,647 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:17,647 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:20,192 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:51:20,192 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:51:24,345 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:24,346 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:24,346 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:24,649 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:25,649 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:32,710 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:32,711 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:32,711 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:33,652 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:35,377 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:51:35,377 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:51:35,653 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:41,316 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:41,316 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:41,317 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:41,656 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:43,656 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:46,634 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:51:49,912 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:49,912 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:49,913 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:50,556 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:51:50,556 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:51:50,660 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:51,660 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:51:58,368 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:51:58,369 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:51:58,369 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:51:58,663 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:51:59,663 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:05,733 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:52:05,733 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:52:06,926 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:06,926 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:06,927 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:07,666 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:09,667 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:15,485 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:15,485 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:15,486 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:15,669 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:17,036 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:52:17,670 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:20,922 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:52:20,922 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:52:23,913 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:23,913 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:23,914 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:24,672 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:25,672 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:32,535 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:32,536 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:32,536 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:32,675 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:33,675 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:36,111 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:52:36,112 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:52:41,141 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:41,141 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:41,142 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:41,678 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:43,679 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:47,422 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:52:49,601 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:49,601 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:49,602 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:49,681 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:51,300 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:52:51,300 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:52:51,682 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:52:58,169 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:52:58,169 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:52:58,169 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:52:58,684 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:52:59,685 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:06,479 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:53:06,479 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:53:06,746 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:06,746 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:06,747 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:07,688 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:07,688 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:15,147 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:15,148 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:15,148 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:15,690 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:17,691 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:17,805 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:53:21,665 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:53:21,666 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:53:23,657 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:23,657 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:23,658 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:23,692 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:25,693 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:32,256 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:32,256 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:32,257 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:32,695 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:33,695 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:36,849 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:53:36,849 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:53:40,609 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:40,609 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:40,609 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:40,697 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:41,697 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:48,183 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:53:49,123 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:53:49,123 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:53:49,124 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:53:49,699 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:53:51,700 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:53:52,040 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:53:52,040 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:53:59,702 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:07,704 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:12,040 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:54:15,706 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:18,487 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:54:18,487 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:54:18,487 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:54:18,487 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:54:18,488 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:54:18,488 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:54:18,488 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:54:18,707 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:54:25,709 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:32,041 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:54:33,712 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:41,715 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:49,717 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:51,980 ERROR   SenderThread:930059 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-02-10 10:54:52,042 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 10:54:57,719 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:54:58,632 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:54:58,633 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:54:58,634 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:54:58,635 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:54:58,635 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:54:58,635 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:54:58,635 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:54:58,636 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:54:58,636 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:54:58,636 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:54:58,636 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:54:58,719 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:55:00,252 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:55:00,252 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:55:00,252 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:55:00,252 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:55:00,252 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:55:00,253 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:55:00,253 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:55:00,253 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 10:55:00,720 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:55:01,248 DEBUG   SenderThread:930059 [sender.py:send():235] send: history
+2022-02-10 10:55:01,248 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:55:01,249 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:55:01,720 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:55:05,721 INFO    Thread-8  :930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:55:06,970 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:06,970 DEBUG   SenderThread:930059 [sender.py:send():235] send: telemetry
+2022-02-10 10:55:06,970 DEBUG   SenderThread:930059 [sender.py:send():235] send: exit
+2022-02-10 10:55:06,970 INFO    SenderThread:930059 [sender.py:send_exit():371] handling exit code: 1
+2022-02-10 10:55:06,970 INFO    SenderThread:930059 [sender.py:send_exit():373] handling runtime: 1718
+2022-02-10 10:55:06,971 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:55:06,971 INFO    SenderThread:930059 [sender.py:send_exit():379] send defer
+2022-02-10 10:55:06,971 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:06,972 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:06,972 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-10 10:55:06,972 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:06,972 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-10 10:55:06,972 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 1
+2022-02-10 10:55:06,972 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:06,972 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-10 10:55:07,072 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,073 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-10 10:55:07,073 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 2
+2022-02-10 10:55:07,073 DEBUG   SenderThread:930059 [sender.py:send():235] send: stats
+2022-02-10 10:55:07,073 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:07,074 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:07,074 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:07,074 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-10 10:55:07,074 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,074 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-10 10:55:07,074 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 3
+2022-02-10 10:55:07,074 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:07,074 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-10 10:55:07,075 DEBUG   SenderThread:930059 [sender.py:send():235] send: summary
+2022-02-10 10:55:07,075 INFO    SenderThread:930059 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 10:55:07,075 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,075 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-10 10:55:07,075 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 4
+2022-02-10 10:55:07,075 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:07,075 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-10 10:55:07,076 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,076 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-10 10:55:07,175 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:07,436 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 5
+2022-02-10 10:55:07,436 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:07,437 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:07,437 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-10 10:55:07,437 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,437 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-10 10:55:07,437 INFO    SenderThread:930059 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-10 10:55:07,538 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:07,723 INFO    SenderThread:930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/config.yaml
+2022-02-10 10:55:07,723 INFO    SenderThread:930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:55:07,723 INFO    SenderThread:930059 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():313] scan: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-metadata.json wandb-metadata.json
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log output.log
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json wandb-summary.json
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/config.yaml config.yaml
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [dir_watcher.py:finish():327] scan save: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/requirements.txt requirements.txt
+2022-02-10 10:55:07,724 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 6
+2022-02-10 10:55:07,725 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:07,729 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:07,729 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-10 10:55:07,729 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:07,732 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-10 10:55:07,732 INFO    SenderThread:930059 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 10:55:07,827 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:07,827 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:07,929 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:07,930 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,032 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,032 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,134 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,134 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,236 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,236 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,337 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,337 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,439 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,439 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,542 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,542 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,608 INFO    Thread-13 :930059 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/wandb-summary.json
+2022-02-10 10:55:08,644 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,644 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,662 INFO    Thread-15 :930059 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/requirements.txt
+2022-02-10 10:55:08,685 INFO    Thread-12 :930059 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/output.log
+2022-02-10 10:55:08,745 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,745 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,829 INFO    Thread-14 :930059 [upload_job.py:push():137] Uploaded file /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/files/config.yaml
+2022-02-10 10:55:08,846 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,846 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:08,948 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:08,949 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:09,030 INFO    Thread-7  :930059 [sender.py:transition_state():392] send defer: 7
+2022-02-10 10:55:09,030 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:09,030 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-10 10:55:09,030 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:09,030 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-10 10:55:09,050 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:10,698 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 8
+2022-02-10 10:55:10,698 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:10,698 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:10,698 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-10 10:55:10,699 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:10,699 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-10 10:55:10,699 INFO    SenderThread:930059 [sender.py:transition_state():392] send defer: 9
+2022-02-10 10:55:10,699 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 10:55:10,699 DEBUG   SenderThread:930059 [sender.py:send():235] send: final
+2022-02-10 10:55:10,699 INFO    HandlerThread:930059 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-10 10:55:10,700 DEBUG   SenderThread:930059 [sender.py:send():235] send: footer
+2022-02-10 10:55:10,700 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: defer
+2022-02-10 10:55:10,700 INFO    SenderThread:930059 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-10 10:55:10,801 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 10:55:10,801 DEBUG   SenderThread:930059 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 10:55:10,801 INFO    SenderThread:930059 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 10:55:11,152 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-10 10:55:11,152 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-10 10:55:11,154 DEBUG   HandlerThread:930059 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-10 10:55:11,154 INFO    HandlerThread:930059 [handler.py:finish():739] shutting down handler
+2022-02-10 10:55:11,700 INFO    WriterThread:930059 [datastore.py:close():281] close: /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_102627-vsk7boik/run-vsk7boik.wandb
+2022-02-10 10:55:12,151 INFO    SenderThread:930059 [sender.py:finish():1075] shutting down sender
+2022-02-10 10:55:12,151 INFO    SenderThread:930059 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 10:55:12,151 INFO    SenderThread:930059 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 10:55:12,153 INFO    MainThread:930059 [internal.py:handle_exit():79] Internal process exited

@@ -1,0 +1,12 @@
+
+I0209 21:07:50.214590 140458034534208 run.py:93] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0209 21:07:52.067421 140458034534208 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0209 21:07:52.068561 140458034534208 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0)
+I0209 21:07:52.068629 140458034534208 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split train, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0209 21:07:52.341983 140458034534208 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0209 21:07:52.342674 140458034534208 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0)
+I0209 21:07:52.342733 140458034534208 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split val, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0209 21:07:52.546571 140458034534208 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0209 21:07:52.547415 140458034534208 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0)
+I0209 21:07:52.547481 140458034534208 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split test, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0209 21:07:52.688924 140458034534208 xla_bridge.py:247] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker:

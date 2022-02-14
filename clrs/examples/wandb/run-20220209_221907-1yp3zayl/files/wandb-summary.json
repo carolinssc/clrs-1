@@ -1,0 +1,1 @@
+{"train_loss": 0.007016041316092014, "train_score": 0.8671875, "val_score": 0.833984375, "_runtime": 3819, "_timestamp": 1644445366, "_step": 445, "_wandb": {"runtime": 3824}}

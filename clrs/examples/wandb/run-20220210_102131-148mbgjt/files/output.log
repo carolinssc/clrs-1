@@ -1,0 +1,27 @@
+I0210 10:21:33.410853 140303602333504 run.py:101] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0210 10:21:34.761994 140303602333504 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:21:34.763125 140303602333504 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0)
+I0210 10:21:34.763195 140303602333504 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split train, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_train/1.0.0
+I0210 10:21:35.028647 140303602333504 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:21:35.029277 140303602333504 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0)
+I0210 10:21:35.029334 140303602333504 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split val, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_val/1.0.0
+I0210 10:21:35.228650 140303602333504 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:21:35.229459 140303602333504 dataset_builder.py:369] Reusing dataset clrs_dataset (/home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0)
+I0210 10:21:35.229522 140303602333504 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split test, from /home/csasc/clrs/Data/data/clrs_dataset/dijkstra_test/1.0.0
+I0210 10:21:35.366653 140303602333504 xla_bridge.py:247] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker:
+I0210 10:21:35.371574 140303602333504 xla_bridge.py:247] Unable to initialize backend 'tpu': INVALID_ARGUMENT: TpuPlatform is not available.
+I0210 10:21:35.626596 140303602333504 run.py:169] Restore pretrained model
+I0210 10:21:53.260080 140303602333504 run.py:181] Compiled feedback step in 17.633495 s.
+I0210 10:21:54.546075 140303602333504 run.py:196] (train) step 0: {'step': 0, 'examples_seen': 0, 'pi': 0.099609375, 'score': 0.099609375, 'loss': 11.789875984191895}
+I0210 10:21:54.561575 140303602333504 run.py:204] (val) step 0: {'step': 0, 'examples_seen': 0, 'pi': 0.080078125, 'score': 0.080078125}
+I0210 10:21:54.561933 140303602333504 run.py:215] Saving new checkpoint...
+Traceback (most recent call last):
+  File "run.py", line 232, in <module>
+    app.run(main)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run.py", line 217, in main
+    model.save_model(f'mpnn_{sigma}.pkl')
+NameError: name 'sigma' is not defined

@@ -1,0 +1,145 @@
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_setup.py:_flush():75] Loading settings from /home/csasc/.config/wandb/settings
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_setup.py:_flush():75] Loading settings from /home/csasc/clrs-1/clrs/examples/wandb/settings
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'clrs/examples/run.py', 'program': 'run.py'}
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_init.py:_log_setup():386] Logging user logs to /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_101704-ih7zqhca/logs/debug.log
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_init.py:_log_setup():387] Logging internal logs to /home/csasc/clrs-1/clrs/examples/wandb/run-20220210_101704-ih7zqhca/logs/debug-internal.log
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_init.py:init():420] calling init triggers
+2022-02-10 10:17:04,997 INFO    MainThread:924954 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {}
+2022-02-10 10:17:04,998 INFO    MainThread:924954 [wandb_init.py:init():471] starting backend
+2022-02-10 10:17:04,998 INFO    MainThread:924954 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-10 10:17:05,007 INFO    MainThread:924954 [backend.py:ensure_launched():219] starting backend process...
+2022-02-10 10:17:05,013 INFO    MainThread:924954 [backend.py:ensure_launched():224] started backend process with pid: 925056
+2022-02-10 10:17:05,014 INFO    MainThread:924954 [wandb_init.py:init():480] backend started and connected
+2022-02-10 10:17:05,018 INFO    MainThread:924954 [wandb_init.py:init():550] updated telemetry
+2022-02-10 10:17:05,037 INFO    MainThread:924954 [wandb_init.py:init():581] communicating current version
+2022-02-10 10:17:05,393 INFO    MainThread:924954 [wandb_init.py:init():586] got version response 
+2022-02-10 10:17:05,393 INFO    MainThread:924954 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-10 10:17:05,598 INFO    MainThread:924954 [wandb_init.py:init():624] starting run threads in backend
+2022-02-10 10:17:06,961 INFO    MainThread:924954 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-10 10:17:06,962 INFO    MainThread:924954 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.REDIRECT
+2022-02-10 10:17:06,962 INFO    MainThread:924954 [wandb_run.py:_redirect():1706] Redirecting console.
+2022-02-10 10:17:06,963 INFO    MainThread:924954 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-10 10:17:06,963 INFO    MainThread:924954 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-10 10:17:08,993 INFO    MainThread:924954 [wandb_run.py:_config_callback():966] config_cb None None {'?': False, 'algorithm': 'dijkstra', 'alsologtostderr': False, 'batch_size': 32, 'checkpoint_path': '/home/csasc/clrs/Data/Checkpoints', 'chex_assert_multiple_cpu_devices': False, 'chex_n_cpu_devices': 1, 'chex_skip_pmap_variant_if_single_device': True, 'dataset_path': '/home/csasc/clrs/Data/data', 'decode_diffs': True, 'decode_hints': True, 'dropout_prob': 0.0, 'encode_hints': True, 'freeze_processor': True, 'hbm_oom_exit': True, 'help': False, 'helpfull': False, 'helpshort': False, 'helpxml': False, 'hidden_size': 128, 'learning_rate': 0.0005, 'load_pretrained': True, 'log_dir': '', 'log_every': 10, 'logger_levels': {}, 'logtostderr': False, 'only_check_args': False, 'op_conversion_fallback_to_while_loop': True, 'pdb': False, 'pdb_post_mortem': False, 'processor_type': 'mpnn', 'profile_file': None, 'run_with_pdb': False, 'run_with_profiling': False, 'runtime_oom_exit': True, 'seed': 42, 'showprefixforinfo': True, 'sigma': 0.05, 'stderrthreshold': 'fatal', 'test_random_seed': 301, 'test_randomize_ordering_seed': '', 'test_srcdir': '', 'test_tmpdir': '/tmp/absl_testing', 'train_steps': 2000, 'use_cprofile_for_profiling': True, 'use_lstm': False, 'v': 0, 'verbose_logging': False, 'verbosity': 0, 'wikipedia_auto_select_flume_mode': True, 'xml_output_file': ''}
+2022-02-10 10:17:09,250 INFO    MainThread:924954 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 1
+2022-02-10 10:17:09,251 INFO    MainThread:924954 [wandb_run.py:_restore():1769] restore
+2022-02-10 10:17:11,606 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1138
+  total_bytes: 1138
+}
+
+2022-02-10 10:17:11,883 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1138
+  total_bytes: 1138
+}
+
+2022-02-10 10:17:12,603 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 1138
+  total_bytes: 4289
+}
+
+2022-02-10 10:17:12,705 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1138
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:12,815 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1138
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:12,917 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,018 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,119 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,221 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,322 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,423 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,525 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:13,757 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+
+2022-02-10 10:17:14,225 INFO    MainThread:924954 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8458
+  total_bytes: 8458
+}
+local_info {
+}
+
+2022-02-10 10:17:15,559 INFO    MainThread:924954 [wandb_run.py:_append_files():2194] logging synced files

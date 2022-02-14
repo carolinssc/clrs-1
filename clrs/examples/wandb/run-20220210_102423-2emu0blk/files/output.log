@@ -1,0 +1,37 @@
+I0210 10:24:25.035367 140703510902592 run.py:101] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0210 10:24:26.358588 140703510902592 dataset_info.py:439] Load dataset info from /home/csasc/clrs/Data/data_0.05/clrs_dataset/dijkstra_train/1.0.0
+Traceback (most recent call last):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 397, in try_reraise
+    yield
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 168, in builder
+    return cls(**builder_kwargs)  # pytype: disable=not-instantiable
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_builder.py", line 941, in __init__
+    super().__init__(**kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_builder.py", line 200, in __init__
+    self.info.read_from_directory(self._data_dir)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_info.py", line 443, in read_from_directory
+    raise FileNotFoundError(
+FileNotFoundError: Tried to load `DatasetInfo` from a directory which does not exist or does not contain `dataset_info.json`. Please delete the directory `/home/csasc/clrs/Data/data_0.05/clrs_dataset/dijkstra_train/1.0.0`  if you are trying to re-generate the dataset.
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "run.py", line 234, in <module>
+    app.run(main)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run.py", line 112, in main
+    train_sampler, spec = clrs.create_dataset(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/dataset.py", line 151, in create_dataset
+    dataset = tfds.load(f'clrs_dataset/{algorithm}_{split}',
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 322, in load
+    dbuilder = builder(name, data_dir=data_dir, try_gcs=try_gcs, **builder_kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 168, in builder
+    return cls(**builder_kwargs)  # pytype: disable=not-instantiable
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 399, in try_reraise
+    reraise(e, *args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 366, in reraise
+    raise exception from e
+FileNotFoundError: Failed to construct dataset clrs_dataset: Tried to load `DatasetInfo` from a directory which does not exist or does not contain `dataset_info.json`. Please delete the directory `/home/csasc/clrs/Data/data_0.05/clrs_dataset/dijkstra_train/1.0.0`  if you are trying to re-generate the dataset.

@@ -1,0 +1,12 @@
+I0209 20:04:04.459284 139986963007296 run.py:93] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+I0209 20:04:04.459471 139986963007296 run.py:96] Dataset not found in /tmp/CLRS30/clrs_dataset. Downloading...
+I0209 20:04:15.661564 139986963007296 dataset_info.py:439] Load dataset info from /tmp/CLRS30/clrs_dataset/bfs_train/1.0.0
+I0209 20:04:15.662564 139986963007296 dataset_builder.py:369] Reusing dataset clrs_dataset (/tmp/CLRS30/clrs_dataset/bfs_train/1.0.0)
+I0209 20:04:15.662632 139986963007296 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split train, from /tmp/CLRS30/clrs_dataset/bfs_train/1.0.0
+I0209 20:04:15.906233 139986963007296 dataset_info.py:439] Load dataset info from /tmp/CLRS30/clrs_dataset/bfs_val/1.0.0
+I0209 20:04:15.906884 139986963007296 dataset_builder.py:369] Reusing dataset clrs_dataset (/tmp/CLRS30/clrs_dataset/bfs_val/1.0.0)
+I0209 20:04:15.906941 139986963007296 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split val, from /tmp/CLRS30/clrs_dataset/bfs_val/1.0.0
+I0209 20:04:16.128681 139986963007296 dataset_info.py:439] Load dataset info from /tmp/CLRS30/clrs_dataset/bfs_test/1.0.0
+I0209 20:04:16.129365 139986963007296 dataset_builder.py:369] Reusing dataset clrs_dataset (/tmp/CLRS30/clrs_dataset/bfs_test/1.0.0)
+I0209 20:04:16.129423 139986963007296 logging_logger.py:44] Constructing tf.data.Dataset clrs_dataset for split test, from /tmp/CLRS30/clrs_dataset/bfs_test/1.0.0
+I0209 20:04:16.242284 139986963007296 xla_bridge.py:247] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker:

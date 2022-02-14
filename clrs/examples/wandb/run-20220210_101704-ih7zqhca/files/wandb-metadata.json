@@ -1,0 +1,41 @@
+{
+    "os": "Linux-5.13.0-28-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-02-10T09:17:06.828776",
+    "startedAt": "2022-02-10T09:17:04.995809",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [
+        "--algorithm",
+        "dijkstra",
+        "--checkpoint_path",
+        "/home/csasc/clrs/Data/Checkpoints",
+        "--dataset_path",
+        "/home/csasc/clrs/Data/data",
+        "--learning_rate",
+        "0.0005",
+        "--train_steps",
+        "2000",
+        "--sigma",
+        "0.05",
+        "--load_pretrained",
+        "True",
+        "--freeze_processor",
+        "False"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "clrs/examples/run.py",
+    "git": {
+        "remote": "https://github.com/carolinssc/clrs-1.git",
+        "commit": "162495c32e09b493a7940b94521a1f9cf14da607"
+    },
+    "email": "carolin.schmidt@rwth-aachen.de",
+    "root": "/home/csasc/clrs-1",
+    "host": "man-tm-aibeauty",
+    "username": "csasc",
+    "executable": "/home/csasc/clrs_env/bin/python"
+}

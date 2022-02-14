@@ -1,0 +1,44 @@
+
+clrs_dataset/dijkstra_train_0.05
+I0210 09:54:30.913697 140559237433152 run.py:102] Using CLRS30 spec: {'train': {'num_samples': 1000, 'length': 16, 'seed': 1}, 'val': {'num_samples': 32, 'length': 16, 'seed': 2}, 'test': {'num_samples': 32, 'length': 64, 'seed': 3}}
+Traceback (most recent call last):
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 397, in try_reraise
+    yield
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 168, in builder
+    return cls(**builder_kwargs)  # pytype: disable=not-instantiable
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_builder.py", line 941, in __init__
+    super().__init__(**kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_builder.py", line 200, in __init__
+    self.info.read_from_directory(self._data_dir)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 152, in __get__
+    cached = self.fget(obj)  # pytype: disable=attribute-error
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/dataset_builder.py", line 346, in info
+    info = self._info()
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/dataset.py", line 93, in _info
+    self._create_data(single_sample=True)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/dataset.py", line 68, in _create_data
+    num_samples = samplers.CLRS30[self._builder_config.split]['num_samples']
+KeyError: 'train_0.05'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "run.py", line 229, in <module>
+    app.run(main)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/absl_py-1.0.0-py3.8.egg/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run.py", line 110, in main
+    train_sampler, spec = clrs.create_dataset(
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/dm_clrs-0.0.2-py3.8.egg/clrs/_src/dataset.py", line 152, in create_dataset
+    dataset = tfds.load(f'clrs_dataset/{algorithm}_{split}',
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 322, in load
+    dbuilder = builder(name, data_dir=data_dir, try_gcs=try_gcs, **builder_kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/load.py", line 168, in builder
+    return cls(**builder_kwargs)  # pytype: disable=not-instantiable
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 399, in try_reraise
+    reraise(e, *args, **kwargs)
+  File "/home/csasc/clrs_env/lib/python3.8/site-packages/tensorflow_datasets/core/utils/py_utils.py", line 366, in reraise
+    raise exception from e
+RuntimeError: KeyError: Failed to construct dataset clrs_dataset: 'train_0.05'
