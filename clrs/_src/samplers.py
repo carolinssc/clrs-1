@@ -35,6 +35,8 @@ Trajectories = List[Trajectory]
 
 Algorithm = Callable[..., Any]
 Features = collections.namedtuple('Features', ['inputs', 'hints', 'lengths'])
+FeaturesChunked = collections.namedtuple(
+    'Features', ['inputs', 'hints', 'is_first', 'is_last'])
 Feedback = collections.namedtuple('Feedback', ['features', 'outputs'])
 
 # CLRS-30 baseline spec.
@@ -116,7 +118,7 @@ class Sampler(abc.ABC):
             f'Batch size {batch_size} > dataset size {self._num_samples}.')
 
       # Returns a fixed-size random batch.
-      indices = np.random.choice(self._num_samples, (batch_size,), replace=True)
+      indices = self._rng.choice(self._num_samples, (batch_size,), replace=True)
       inputs = _subsample_data(self._inputs, indices, axis=0)
       outputs = _subsample_data(self._outputs, indices, axis=0)
       hints = _subsample_data(self._hints, indices, axis=1)
